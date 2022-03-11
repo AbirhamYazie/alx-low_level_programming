@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o "$(echo $CFILE | cut -d'.' -f 1 ).o"
+export CFILE=2-main.c ; ./2-assembler
