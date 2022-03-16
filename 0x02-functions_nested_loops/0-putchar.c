@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * main - entry block
@@ -10,10 +11,10 @@ int main(void)
 
 	int c;
 
-	for (c = 0; c < 7; c++)
+	for (c = 0; c < 8; c++)
 	{
-		_putchar(abrish[c]);
+		putchar(abrish[c]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
