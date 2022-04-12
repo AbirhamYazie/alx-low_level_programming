@@ -5,6 +5,8 @@
  * @name: name
  * @age: age
  * @owner: owner
+ *
+ * Describtion: describes aboy the dogs info
  */
 struct dog
 {
