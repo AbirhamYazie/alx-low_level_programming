@@ -7,8 +7,9 @@
  * @age: age
  * @owner: owner
  *
- * Describtion: describes aboy the dogs info
+ * Describtion: describes about the dogs info
  */
+
 struct dog
 {
 	char *name;
