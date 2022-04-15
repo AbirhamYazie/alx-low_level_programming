@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * a program that prints all single digit numbers of base 10 starting from 0
+ * main: a program that prints all single digit numbers of base 10 starting from 0
  *
- * Return: 0;
+ * Return: 0
  */
-int main()
+int main(void)
 {
-	int i=0;
+	int i = 0;
 
-	while (i<=9)
+	while (i <= 9)
 	{
-		putchar(i%10 + '0');
+		putchar(i % 10 + '0');
 		i++;
 	}
 	putchar('\n');
